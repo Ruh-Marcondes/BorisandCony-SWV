@@ -1,0 +1,11 @@
+{
+    "Name": "Boris And Conny",
+    "Author": "froggyjoestar",
+    "Version": "1.0.0",
+    "Description": "Replaces the sprites, portraits, and names of Marnie and Jas with Boris and Conny.",
+    "UniqueID": "froggyjoestar.BorisAndConny",
+    "UpdateKeys": [],
+    "ContentPackFor": {
+        "UniqueID": "Pathoschild.ContentPatcher"
+    }
+}
