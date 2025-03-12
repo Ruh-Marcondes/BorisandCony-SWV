@@ -26,22 +26,22 @@
         "Action": "EditData",
         "Target": "Characters/Dialogue/Marnie",
         "Entries": {
-          "Introduction": "Ah, Mayor Lewis told me you just arrived. I'm Boris!#$e#I sell livestock and animal care products at my ranch. You should swing by some time.$h",
-          "Mon": "I love animals, @ and isn't becase I'm one. If you treat yours well I'm sure we'll become good friends!",
-          "Tue": "My nephew Shane has been staying at my place the last few months.#$e#He helps me out with the chickens, so I'm not complaining."
+          "Introduction": "{{i18n:boris.Introduction}}",
+          "Mon": "{{i18n:boris.Mon}}",
+          "Tue": "{{i18n:boris.Tue}}"
         }
       },
       {
         "Action": "EditData",
         "Target": "Characters/Dialogue/Jas",
         "Entries": {
-          "AcceptGift_Negative_coffee_item": "Oh... Boris doesn't let me drink coffee yet...$s",
-          "Resort": " Boris told me not to get burnt... But when I walk fast, it feels cool, so I think I'll be okay.$h",
-          "movieTheater": "Boris says I'm not old enough to see a movie by myself...$s",
-          "Mon": "Oh...Are you looking for Boris?$u",
-          "Wed4": "Boris won't let me go out after 6 o'clock. It's not fair!$s#$e#I'm not afraid of the dark anymore!",
-          "Sat2": "Sometimes I look for crawdads in the river. Don't tell Boris... but I fed one to a cow once.#$e#She loved it.",
-          "Sun2": "Shane's gone a lot, and Boris is busy all the time... so I have to invent my own games.#$e#I'm thankful for all my toys.$h"
+          "AcceptGift_Negative_coffee_item": "{{i18n:conny.AcceptGift_Negative_coffee_item}}",
+          "Resort": "{{i18n:conny.Resort}}",
+          "movieTheater": "{{i18n:conny.movieTheater}}",
+          "Mon": "{{i18n:conny.Mon}}",
+          "Wed4": "{{i18n:conny.Wed4}}",
+          "Sat2": "{{i18n:conny.Sat2}}",
+          "Sun2": "{{i18n:conny.Sun2}}"
         }
       },
       {
