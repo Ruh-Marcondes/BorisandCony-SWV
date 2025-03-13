@@ -1,0 +1,44 @@
+Este framework é uma ferramenta destinada a modders de Stardew Valley que desejam adicionar e personalizar emails dentro do jogo de forma flexível e com mais controle. Ele simplifica o envio de cartas ao jogador, permitindo modificar não apenas o conteúdo e a aparência das cartas, mas também as condições de entrega e os itens que podem ser anexados a elas.
+
+Aqui está uma explicação detalhada sobre as principais funcionalidades e novidades do Mail Framework Mod (MFM):
+
+Objetivo do Framework:
+Simplificar o envio de emails para o jogador, dando mais controle sobre quando e o que deve ser recebido.
+Permite opções adicionais que não seriam possíveis apenas editando os arquivos de dados do jogo, como mudar a cor do texto e o fundo da carta.
+Funcionalidades Principais:
+Personalização de Emails:
+
+Você pode alterar as cores do texto e do fundo das cartas.
+Permite criar cartas dinâmicas com conteúdos personalizados, como itens ou receitas.
+Gerenciamento de Anexos:
+
+O mod oferece propriedades para definir quais itens (como itens do jogo ou até receitas) podem ser anexados às cartas.
+Itens Aleatórios podem ser escolhidos como anexos, com a possibilidade de configurar um "peso" para determinar a probabilidade de certos itens serem escolhidos aleatoriamente.
+Novas Propriedades:
+
+Condições de Entrega: As cartas podem ter requisitos específicos para serem entregues, como a condição de que o jogador tenha completado certas tarefas ou atingido determinados marcos (por exemplo, ter construído um determinado edifício ou ter uma amizade com um NPC).
+Propriedades de Resposta: Após o jogador ler uma carta, podem aparecer opções de resposta que influenciam a evolução do jogo, com novas condições sendo criadas dependendo da escolha do jogador.
+Anexos Especiais: O framework também suporta ferramentas, armas, botas, móveis, anéis, etc., como itens anexos a uma carta.
+Suporte para Customização de Interface:
+
+O mod permite que você adicione imagens personalizadas ou até mesmo defina as cores da interface de uma carta. Isso inclui personalizar a exibição da carta no menu de correspondência do jogo.
+Comandos e Funções para Modders:
+
+O mod fornece uma API para modders, permitindo que eles criem novos emails, definam condições de entrega, e manipulem como e quando os emails são enviados e lidos.
+Comandos de Console: A API também oferece comandos de console para forçar a atualização da caixa de correio e ajudar na depuração de mods.
+Novidades e Melhorias nas Atualizações (Changelog):
+A cada versão, o mod recebe melhorias significativas, como novos tipos de propriedades, condições, suporte para novos tipos de itens, além de correções de bugs e ajustes para a compatibilidade com versões mais recentes do jogo e do SMAPI (Stardew Modding API).
+
+Exemplo de Funcionalidade:
+Propriedade de "Resposta" (ReplyConfig): Isso permite que, após ler uma carta, o jogador tenha opções de resposta. Dependendo da escolha, o jogo pode adicionar novos itens, afetar a amizade com NPCs ou até desbloquear novos eventos ou missões.
+
+Anexos Aleatórios: Ao configurar o mod, você pode definir um grupo de itens que será escolhido aleatoriamente como anexo. Você também pode atribuir pesos a esses itens, permitindo que certos itens apareçam mais frequentemente que outros.
+
+Instalação:
+Instalação do SMAPI: Primeiro, é necessário ter o SMAPI instalado, pois o mod depende dessa API para funcionar corretamente.
+Instalar o Mail Framework Mod: Após baixar o mod, basta descompactá-lo na pasta Mods dentro do diretório do jogo. Assim, o framework começará a funcionar automaticamente.
+Como Usar para Modders:
+Dentro da pasta do mod, você encontrará modelos de configuração com instruções detalhadas sobre como usar o framework.
+Modders podem criar packs de conteúdo personalizados para adicionar novas cartas, e podem usar as condições e propriedades do mod para configurar como as cartas devem ser enviadas ao jogador.
+Conclusão:
+O Mail Framework Mod oferece aos modders de Stardew Valley uma maneira poderosa de criar e personalizar a correspondência dentro do jogo, permitindo um nível de controle muito maior do que seria possível com as ferramentas padrão do jogo. Ele adiciona novos recursos e flexibilidade para enviar emails ao jogador de maneiras criativas e envolventes, com suporte para anexos, condições personalizadas, respostas e até mudanças visuais na interface das cartas.
