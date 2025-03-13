@@ -1,2 +1,14 @@
 https://stardewvalleywiki.com/Modding:NPC_data
 
+https://stardewvalleywiki.com/Modding:Event_data
+
+https://stardewvalleywiki.com/Modding:Game_state_queries
+
+https://pt.stardewvalleywiki.com/Modifica%C3%A7%C3%B5es:Editando_arquivos_XNB
+
+
+
+Para extrair ou modificar esses arquivos, você pode precisar de um software de descompactação que consiga lidar com esse formato. Alguns programas populares incluem:
+
+XNB Extract: para extrair os arquivos dentro de um arquivo .xnb.
+XNB Builder: para criar ou modificar arquivos .xnb.
