@@ -1,0 +1,66 @@
+{
+  "Format": "2.3.0",
+  "Changes": [
+    {
+      "Action": "EditData",
+      "Target": "Strings/NPCNames",
+      "Entries": {
+        "Marnie": "Boris"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/Characters",
+      "Entries": {
+        "Marnie": {
+          "DisplayName": "Boris",
+          "Gender": "Male"
+        }
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Characters/Dialogue/Marnie",
+      "Entries": {
+        "Introduction": "{{i18n:boris.Introduction}}",
+        "Mon": "{{i18n:boris.Mon}}",
+        "Tue": "{{i18n:boris.Tue}}"
+      }
+    },
+    {
+      "Action": "Load",
+      "Target": "Characters/Marnie",
+      "FromFile": "assets/Boris_Sprites.png"
+    },
+    {
+      "Action": "Load",
+      "Target": "LooseSprites/marnie_winter_dance",
+      "FromFile": "assets/Boris_Winter_Dance.png"
+    },
+    {
+      "Action": "Load",
+      "Target": "Characters/Marnie_Winter",
+      "FromFile": "assets/Boris_Sprites_Winter.png"
+    },
+    {
+      "Action": "Load",
+      "Target": "Characters/Marnie_Beach",
+      "FromFile": "assets/Boris_Sprites_Beach.png"
+    },
+    {
+      "Action": "EditImage",
+      "Target": "Portraits/Marnie",
+      "FromFile": "assets/Boris_Portrait.png"
+    },
+    {
+      "Action": "EditImage",
+      "Target": "Portraits/Marnie_Winter",
+      "FromFile": "assets/Boris_Portrait_Winter.png"
+    },
+    {
+      "Action": "EditImage",
+      "Target": "Portraits/Marnie_Beach",
+      "FromFile": "assets/Boris_Portrait_Beach.png"
+    }
+  ]
+}
