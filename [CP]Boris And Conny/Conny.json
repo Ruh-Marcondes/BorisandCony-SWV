@@ -1,0 +1,54 @@
+{
+  "Format": "2.3.0",
+  "Changes": [
+    {
+      "Action": "EditData",
+      "Target": "Strings/NPCNames",
+      "Entries": {
+        "Jas": "Conny"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/Characters",
+      "Entries": {
+        "Jas": {
+          "DisplayName": "Conny"
+        }
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Characters/Dialogue/Jas",
+      "Entries": {
+        "AcceptGift_Negative_coffee_item": "{{i18n:conny.AcceptGift_Negative_coffee_item}}",
+        "Resort": "{{i18n:conny.Resort}}",
+        "movieTheater": "{{i18n:conny.movieTheater}}",
+        "Mon": "{{i18n:conny.Mon}}",
+        "Wed4": "{{i18n:conny.Wed4}}",
+        "Sat2": "{{i18n:conny.Sat2}}",
+        "Sun2": "{{i18n:conny.Sun2}}"
+      }
+    },
+    {
+      "Action": "Load",
+      "Target": "Characters/Jas",
+      "FromFile": "assets/Conny_Sprites.png"
+    },
+    {
+      "Action": "Load",
+      "Target": "Characters/Jas_Winter",
+      "FromFile": "assets/Conny_Sprites_Winter.png"
+    },
+    {
+      "Action": "EditImage",
+      "Target": "Portraits/Jas",
+      "FromFile": "assets/Conny_Portrait.png"
+    },
+    {
+      "Action": "EditImage",
+      "Target": "Portraits/Jas_Winter",
+      "FromFile": "assets/Conny_Portrait_Winter.png"
+    }
+  ]
+}
