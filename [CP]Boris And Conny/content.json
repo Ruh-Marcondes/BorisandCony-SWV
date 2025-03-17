@@ -1,104 +1,13 @@
 {
-    "Format": "2.3.0",
-    "Changes": [
-      {
-        "Action": "EditData",
-        "Target": "Strings/NPCNames",
-        "Entries": {
-          "Marnie": "Boris",
-          "Jas": "Conny"
-        }
-      },
-      {
-        "Action": "EditData",
-        "Target": "Data/Characters",
-        "Entries": {
-          "Marnie": {
-            "DisplayName": "Boris",
-            "Gender": "Male"
-          },
-          "Jas": {
-            "DisplayName": "Conny"
-          }
-        }
-      },
-      {
-        "Action": "EditData",
-        "Target": "Characters/Dialogue/Marnie",
-        "Entries": {
-          "Introduction": "{{i18n:boris.Introduction}}",
-          "Mon": "{{i18n:boris.Mon}}",
-          "Tue": "{{i18n:boris.Tue}}"
-        }
-      },
-      {
-        "Action": "EditData",
-        "Target": "Characters/Dialogue/Jas",
-        "Entries": {
-          "AcceptGift_Negative_coffee_item": "{{i18n:conny.AcceptGift_Negative_coffee_item}}",
-          "Resort": "{{i18n:conny.Resort}}",
-          "movieTheater": "{{i18n:conny.movieTheater}}",
-          "Mon": "{{i18n:conny.Mon}}",
-          "Wed4": "{{i18n:conny.Wed4}}",
-          "Sat2": "{{i18n:conny.Sat2}}",
-          "Sun2": "{{i18n:conny.Sun2}}"
-        }
-      },
-      {
-        "Action": "Load",
-        "Target": "Characters/Jas",
-        "FromFile": "assets/Conny_Sprites.png"
-      },
-      {
-        "Action": "Load",
-        "Target": "Characters/Jas_Winter",
-        "FromFile": "assets/Conny_Sprites_Winter.png"
-      },
-      {
-        "Action": "EditImage",
-        "Target": "Portraits/Jas",
-        "FromFile": "assets/Conny_Portrait.png"
-      },
-      {
-        "Action": "EditImage",
-        "Target": "Portraits/Jas_Winter",
-        "FromFile": "assets/Conny_Portrait_Winter.png"
-      },
-      {
-        "Action": "Load",
-        "Target": "Characters/Marnie",
-        "FromFile": "assets/Boris_Sprites.png"
-      },
-      {
-        "Action": "Load",
-        "Target": "LooseSprites/marnie_winter_dance",
-        "FromFile": "assets/Boris_Winter_Dance.png"
-      },
-      {
-        "Action": "Load",
-        "Target": "Characters/Marnie_Winter",
-        "FromFile": "assets/Boris_Sprites_Winter.png"
-      },
-      {
-        "Action": "Load",
-        "Target": "Characters/Marnie_Beach",
-        "FromFile": "assets/Boris_Sprites_Beach.png"
-      },
-      {
-        "Action": "EditImage",
-        "Target": "Portraits/Marnie",
-        "FromFile": "assets/Boris_Portrait.png"
-      },
-      {
-        "Action": "EditImage",
-        "Target": "Portraits/Marnie_Winter",
-        "FromFile": "assets/Boris_Portrait_Winter.png"
-      },
-      {
-        "Action": "EditImage",
-        "Target": "Portraits/Marnie_Beach",
-        "FromFile": "assets/Boris_Portrait_Beach.png"
-      }
-    ]
-  }
-  
+  "Format": "2.3.0",
+  "Changes": [
+    {
+      "Action": "Include",
+      "FromFile": "Conny.json"
+    },
+    {
+      "Action": "Include",
+      "FromFile": "Boris.json"
+    },
+  ]
+}
