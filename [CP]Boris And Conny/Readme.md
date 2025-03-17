@@ -5,3 +5,7 @@
 - [ ] Alterar algo relacionado à Penny
 - [ ] Alterar as falas da Penny referentes à Jas
 - [ ] Alterar as falas da Penny referentes à Marnie
+
+<hr>
+
+https://www.youtube.com/watch?v=ZldoFuyGddg
