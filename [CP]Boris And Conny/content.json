@@ -2,11 +2,11 @@
   "Format": "2.3.0",
   "Changes": [
     {
-      "Action": "Include",
+      "Action": "Load",
       "FromFile": "Conny.json"
     },
     {
-      "Action": "Include",
+      "Action": "Load",
       "FromFile": "Boris.json"
     },
   ]
