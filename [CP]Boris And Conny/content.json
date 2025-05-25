@@ -23,12 +23,22 @@
         }
       },
       {
+  "Action": "EditData",
+  "Target": "Data/NPCGiftTastes",
+  "Fields": {
+    "Marnie": {
+      "5": "395"
+    }
+  }
+},
+      {
         "Action": "EditData",
         "Target": "Characters/Dialogue/Marnie",
         "Entries": {
           "Introduction": "{{i18n:boris.Introduction}}",
           "Mon": "{{i18n:boris.Mon}}",
-          "Tue": "{{i18n:boris.Tue}}"
+          "Tue": "{{i18n:boris.Tue}}",
+          "AcceptGift_Negative_coffee_item": "{{i18n:boris.AcceptGift_Negative_coffee_item}}"
         }
       },
       {
